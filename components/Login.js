@@ -17,16 +17,14 @@ function Login() {
         />
 
         <button
-          className="bg-teal-400 rounded-full p-3 font-bold animate-pulse"
+          className="bg-red-400 rounded-full p-3 font-bold animate-pulse"
           onClick={authenticate}
         >
           Metamask Login
         </button>
       </div>
-      <div className="bg-gradient-to-t border-teal-800 border-4 from-slate-500/[.6] to-teal-100/[.6] p-5 flex flex-col absolute z50 w-full radius items-center justify-center shadow-lg">
-        <h1 className="font-bold p-8 text-teal-400 text-3xl">
-          AVAX GAMECENTER
-        </h1>
+      <div className="bg-gradient-to-t border-red-800 border-4 from-slate-500/[.6] to-red-100/[.6] p-5 flex flex-col absolute z50 w-full radius items-center justify-center shadow-lg">
+        <h1 className="font-bold p-8 text-red-400 text-3xl">AVAX GAMECENTER</h1>
         <p className="mb-2 mt-2 ">
           by Harsh Ghodkar, Dominic Hackett & Felix Prabitz
         </p>

@@ -10,7 +10,7 @@ export default function Home() {
   if (!isAuthenticated) return <Login />;
 
   return (
-    <div className="h-screen overflow-y-scroll scrollbar-hide  bg-gradient-to-b from-slate-500 to-teal-100">
+    <div className="h-screen overflow-y-scroll scrollbar-hide  bg-gradient-to-b to-white from-red-400">
       <Head>
         <title>AVAX GAMECENTER</title>
         <link rel="icon" href="/Avax_logo.png" />

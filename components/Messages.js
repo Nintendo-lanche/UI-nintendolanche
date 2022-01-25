@@ -33,11 +33,11 @@ function Messages(message) {
         <Navbar />
         {/* CENTER - PIECE */}
         <div className="flex flex-col items-center justify-center h-96 mx-auto">
-          <h1 className="text-xl p-3 bg-gradient-to-t from-red-200 border-teal-700/[.9]  border-t-2 shadow-2xl rounded-full ">
+          <h1 className="text-xl p-3 bg-gradient-to-t from-red-200 border-red-700/[.9]  border-t-2 shadow-2xl rounded-full ">
             AVAX GAMECENTER
           </h1>
           <div className="mt-8">
-            <div className="flex flex-col items-center p-1 text-black border-teal-300 border-b-2 bg-gradient-to-t from-red-200 rounded-xl shadow-xl">
+            <div className="flex flex-col items-center p-1 text-black border-red-300 border-b-2 bg-gradient-to-t from-red-300 rounded-xl shadow-xl">
               <h4 className="mb-2 mt-1">HOW TO:</h4>
               <ol className="flex text-sm flex-col items-center w-96">
                 <li className="p-1">Select your favourite game</li>
@@ -57,7 +57,7 @@ function Messages(message) {
                     />  */}
         </div>
         {/* LEFT - CHATROOM */}
-        <div className="sticky w-64  flex-col pt-2 overflow-y-scroll scrollbar-hide bg-gradient-to-b from-slate-700/[.2] to-teal-800/[.05] rounded-3xl border-t-2 border-teal-300 shadow-lg">
+        <div className="sticky w-64  flex-col pt-2 overflow-y-scroll scrollbar-hide bg-gradient-to-b from-slate-700/[.2] to-teal-800/[.05] rounded-3xl border-t-2 border-red-800 shadow-lg">
           <h1 className="sticky max-h-3/6 top-0 flex overflow-hide justify-center text-bold text-lg py-2 shadow-lg z-50">
             Chat Room
           </h1>

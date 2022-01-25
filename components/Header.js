@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <div>
-      <div className="sticky top-0 p-3 z-50 bg-gradient-to-b from-slate-700/[.6] to-teal-800/[.05] shadow-lg text-teal-800 rounded-3xl border-b-2 border-teal-300">
+      <div className="sticky top-0 p-3 z-50 bg-gradient-to-b from-slate-700/[.6] to-red-800/[.05] shadow-lg text-red-800 rounded-3xl border-b-2 border-red-800">
         <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center">
           <div className="relative h-12 w-12 mx-auto hidden lg:inline-grid">
             <Image
@@ -25,7 +25,7 @@ function Header() {
             {/* ADD GAME IMAGE ABOVE */}
           </div>
           <div className="col-span-4 text-left lg:text-center">
-            <div className="relative h-16 w-16 lg:mx-auto border-teal-500 rounded-full border-2 bg-teal-100">
+            <div className="relative h-16 w-16 lg:mx-auto border-red-500 rounded-full border-2 bg-red-100">
               <Avatar logoutOnPress />
             </div>
             <h2 className="flex flex-col text-l text-black font-bold truncate p-1 ">
@@ -33,7 +33,7 @@ function Header() {
             </h2>
             <p
               onClick={copyClipboardAddress}
-              className="flex flex-col text-xs text-black font-light truncate pb-2 hover:cursor-pointer active:text-teal-100"
+              className="flex flex-col text-xs text-black font-light truncate pb-2 hover:cursor-pointer active:text-red-100"
             >
               {walletAddress}
             </p>
