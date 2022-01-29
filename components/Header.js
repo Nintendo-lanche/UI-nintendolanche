@@ -20,7 +20,7 @@ function Header() {
               height={50}
               width={50}
               className="rounded-full"
-              src="/Avax_logo.png"
+              src="/avax1.png"
             />
             {/* ADD GAME IMAGE ABOVE */}
           </div>

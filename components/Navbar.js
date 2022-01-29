@@ -10,19 +10,19 @@ function Navbar() {
         <div className="pb-4 pt-4 p-2">
           <div
             className="flex justify-center p-1 rounded-full text-white bg-red-700/[.9] shadow-lg hover:bg-red-500/[.7] hover:cursor-pointer hover:text-black active:bg-red-100 active:border-t-2 active:border-red-500"
-            onClick={() => window.open("https://google.com")}
+            onClick={() => window.open("https://ava-chess.netlify.app/")}
           >
             Chess
           </div>
         </div>
-        <div className="pb-4 pt-4 p-2">
+        {/* <div className="pb-4 pt-4 p-2">
           <div
             className="flex justify-center p-1 rounded-full text-white bg-red-700/[.9] hover:bg-red-500/[.7] shadow-lg hover:cursor-pointer hover:text-black active:bg-red-100 active:border-t-2 active:border-red-500"
             onClick={() => window.open("https://google.com")}
           >
             Pacman
           </div>
-        </div>
+        </div> */}
         <div className="pb-4 pt-4 p-2">
           <div
             className="flex justify-center p-1 rounded-full text-white bg-red-700/[.9] shadow-lg hover:bg-red-500/[.7] hover:cursor-pointer hover:text-black active:bg-red-100 active:border-t-2 active:border-red-500"

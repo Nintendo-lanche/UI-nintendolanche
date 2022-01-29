@@ -5,7 +5,7 @@ import Message from "./Message";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 
-// SHows messages for the last 15 mins
+// SHows messages for the last 15 seconds
 const MINS_DURATION = 0.5;
 
 function Messages(message) {
@@ -28,19 +28,15 @@ function Messages(message) {
 
   return (
     <div className="pb-16 h-screen6">
-      {/* RIGHT - NAVBAR */}
       <div className="flex flex-row-reverse justify-between pt-4">
         <Navbar />
-        {/* CENTER - PIECE */}
         <div className="flex flex-col items-center justify-center h-96 mx-auto">
           <h1 className="text-xl p-3 bg-gradient-to-t from-red-200 border-red-700/[.9]  border-t-2 shadow-2xl rounded-full ">
             AVAX GAMECENTER
           </h1>
           <div className="mt-8">
             <div className="flex flex-col items-center p-1 text-black border-red-300 border-b-2 bg-gradient-to-t from-red-300 rounded-xl shadow-xl">
-              <h4 className="mb-2 mt-1">HOW TO:</h4>
               <ol className="flex text-sm flex-col items-center w-96">
-                <li className="p-1">Select your favourite game</li>
                 <li className="p-1">Create New Game and stake AVAX.</li>
                 <li className="p-1">Share Gamecode in the Chatroom.</li>
                 <li className="p-1">Wait for competitor to join your game.</li>
@@ -48,15 +44,7 @@ function Messages(message) {
               </ol>
             </div>
           </div>
-
-          {/* 
-                    <Image 
-                        height={200}
-                        width={200}
-                        src="/FP.png"
-                    />  */}
         </div>
-        {/* LEFT - CHATROOM */}
         <div className="sticky w-64  flex-col pt-2 overflow-y-scroll scrollbar-hide bg-gradient-to-b from-slate-700/[.2] to-teal-800/[.05] rounded-3xl border-t-2 border-red-800 shadow-lg">
           <h1 className="sticky max-h-3/6 top-0 flex overflow-hide justify-center text-bold text-lg py-2 shadow-lg z-50">
             Chat Room
@@ -66,9 +54,6 @@ function Messages(message) {
               <Message key={message.id} message={message} />
             ))}
           </div>
-          {/* <div ref={endOfMessagesRef}
-                            className="text-gray-800 items-center">
-                            <p> x</p></div> */}
         </div>
       </div>
 
@@ -81,11 +66,6 @@ function Messages(message) {
       >
         <p>Your'e up to date {user.getUsername()}!</p>
       </div>
-      {/* <div 
-                ref={endOfMessagesRef}
-                className="my-2">
-                    <ByMoralis variant="dark" style={{marginLeft:"auto", marginRight:"auto"}}/>
-                </div> */}
     </div>
   );
 }
