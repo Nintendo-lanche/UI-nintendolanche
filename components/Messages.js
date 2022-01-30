@@ -32,7 +32,7 @@ function Messages(message) {
         <Navbar />
         <div className="flex flex-col items-center justify-center h-96 mx-auto">
           <h1 className="text-xl p-3 bg-gradient-to-t from-red-200 border-red-700/[.9]  border-t-2 shadow-2xl rounded-full ">
-            AVAX GAMECENTER
+            AVA GAMECENTER
           </h1>
           <div className="mt-8">
             <div className="flex flex-col items-center p-1 text-black border-red-300 border-b-2 bg-gradient-to-t from-red-300 rounded-xl shadow-xl">

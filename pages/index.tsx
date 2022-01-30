@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="h-screen overflow-y-scroll scrollbar-hide  bg-gradient-to-b to-white from-red-400">
       <Head>
-        <title>AVAX GAMECENTER</title>
+        <title>AVA GAMECENTER</title>
         <link rel="icon" href="/Avax_logo.png" />
       </Head>
       <div className="max-w-screen-2xl mx-auto">
