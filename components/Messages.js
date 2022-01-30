@@ -64,7 +64,7 @@ function Messages(message) {
         ref={endOfMessagesRef}
         className="text-start text-gray-800 mt-5 pl-16"
       >
-        <p>Your'e up to date {user.getUsername()}!</p>
+        <p>You're up to date {user.getUsername()}!</p>
       </div>
     </div>
   );
